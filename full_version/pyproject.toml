@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uctd-review-api"
+version = "0.1.0"
+dependencies = [
+  "aiosqlite",
+  "envyaml",
+  "fastapi",
+  "pydantic",
+  "PyYAML",
+  "SQLAlchemy",
+  "uvicorn"
+]
+requires-python = ">= 3.11"
+readme = "README.md"

@@ -1,0 +1,1 @@
+"venv/scripts/uvicorn" uctd.review_api.main:app --app-dir src --reload --host 0.0.0.0 --port 5001
